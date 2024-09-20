@@ -28,7 +28,7 @@
       }
     },
     {
-      "description": "Now. you are probably wondering, how do I add install Dexscript to my dex?\n\n**To install Dexscript run the following command.**\n``.eval``\n```py\nimport base64, requests\nr = requests.get(\"https://api.github.com/repos/Dotsian/DexScript/contents/installer.py\")\n\nif r.status_code == requests.codes.ok:\n  content = base64.b64decode(r.json()[\"content\"])\n  await ctx.invoke(bot.get_command(\"eval\"), body=content.decode(\"UTF-8\"))\nelse:\n  await ctx.send(\"Failed to install DexScript.\\nReport this issue to dot_zz on Discord.\")\n  print(f\"ERROR CODE: {r.status_code}\")\nuninstall is\nimport base64, requests\nr = requests.get(\"https://api.github.com/repos/Dotsian/DexScript/contents/uninstaller.py\")\n\nif r.status_code == requests.codes.ok:\n  content = base64.b64decode(r.json()[\"content\"])\n  await ctx.invoke(bot.get_command(\"eval\"), body=content.decode(\"UTF-8\"))\nelse:\n  await ctx.send(\"Failed to uninstall DexScript.\\nReport this issue to dot_zz on Discord.\")\n  print(f\"ERROR CODE: {r.status_code}\")\n```\nPlease add the prefix before \".eval\".\nDon't forget to restart the bot too.",
+      "description": "Now. you are probably wondering, how do I add install Dexscript to my dex?\n\n**To install Dexscript run the following command.**\n``.eval``\n```py\nimport base64, requests\nr = requests.get(\"https://api.github.com/repos/Dotsian/DexScript/contents/installer.py\")\n\nif r.status_code == requests.codes.ok:\n  content = base64.b64decode(r.json()[\"content\"])\n  await ctx.invoke(bot.get_command(\"eval\"), body=content.decode(\"UTF-8\"))\nelse:\n  await ctx.send(\"Failed to install DexScript.\\nReport this issue to `dot_zz` on Discord.\")\n  print(f\"ERROR CODE: {r.status_code}\")\n```\nPlease add the prefix before \".eval\".\nDon't forget to restart the bot too.",
       "color": 60415
     },
     {
@@ -38,7 +38,7 @@
       }
     },
     {
-      "description": "And you were probably wondering, how do I remove it from my dex?\n\n**If you want to uninstall Dexscript you can run this command.**\n``.eval``\n```py\nimport base64, requests\nr = requests.get(\"https://api.github.com/repos/Dotsian/DexScript/contents/uninstaller.py\")\n\nif r.status_code == requests.codes.ok:\n  content = base64.b64decode(r.json()[\"content\"])\n  await ctx.invoke(bot.get_command(\"eval\"), body=content.decode(\"UTF-8\"))\nelse:\n  await ctx.send(\"Failed to uninstall DexScript.\\nReport this issue to `dot_zz` on Discord.\")\n```\nPlease add the prefix before \".eval\".\nDon't forget to restart the bot too.",
+      "description": "And you were probably wondering, how do I remove it from my dex?\n\n**If you want to uninstall Dexscript you can run this command.**\n``.eval``\n```py\nimport base64, requests\nr = requests.get(\"https://api.github.com/repos/Dotsian/DexScript/contents/uninstaller.py\")\n\nif r.status_code == requests.codes.ok:\n  content = base64.b64decode(r.json()[\"content\"])\n  await ctx.invoke(bot.get_command(\"eval\"), body=content.decode(\"UTF-8\"))\nelse:\n  await ctx.send(\"Failed to uninstall DexScript.\\nReport this issue to `dot_zz` on Discord.\")\n  print(f\"ERROR CODE: {r.status_code}\")\n```\nPlease add the prefix before \".eval\".\nDon't forget to restart the bot too.",
       "color": 60415
     },
     {
