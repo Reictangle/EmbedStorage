@@ -1,0 +1,56 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "color": 60415,
+      "image": {
+        "url": "https://media.discordapp.net/attachments/1128408810973839523/1286340248871112854/DO.png?ex=66ed8d36&is=66ec3bb6&hm=768e368fafd379ef4f8b937abdf445de4096db40faef52b074919f8eef31d1c9&=&format=webp&quality=lossless&width=1600&height=391"
+      }
+    },
+    {
+      "description": "Dexscript is code made for dexes, it simplifies adding, changing, and deleting things in your dex. It works with CarFigures and Custom Dexs. One of the things it does good is that it enhances the experience of using your dex.",
+      "color": 60415
+    },
+    {
+      "color": 60415,
+      "image": {
+        "url": "https://media.discordapp.net/attachments/1128408810973839523/1286340249257119755/AVAIL.png?ex=66ed8d36&is=66ec3bb6&hm=001115824d5a1c4928b42877e083d5af43acf34a064696953215712419344e0b&=&format=webp&quality=lossless&width=1440&height=352"
+      }
+    },
+    {
+      "description": "Dexscript can be used on CarFigures and Custom Dexes. It is easily installed and you can update it simply.",
+      "color": 60415
+    },
+    {
+      "color": 60415,
+      "image": {
+        "url": "https://media.discordapp.net/attachments/1128408810973839523/1286340250599428248/INSTELL.png?ex=66ed8d36&is=66ec3bb6&hm=79fc03cdd50ecf690e0166f985682f259abea6f56333eefd5c5fb94021f7478d&=&format=webp&quality=lossless&width=1600&height=391"
+      }
+    },
+    {
+      "description": "Now. you are probably wondering, how do I add install Dexscript to my dex?\n\n**To install Dexscript run the following command.**\n``.eval``\n```py\nimport base64, requests\nr = requests.get(\"https://api.github.com/repos/Dotsian/DexScript/contents/installer.py\")\n\nif r.status_code == requests.codes.ok:\n  content = base64.b64decode(r.json()[\"content\"])\n  await ctx.invoke(bot.get_command(\"eval\"), body=content.decode(\"UTF-8\"))\nelse:\n  await ctx.send(\"Failed to install DexScript.\\nReport this issue to dot_zz on Discord.\")\n  print(f\"ERROR CODE: {r.status_code}\")\nuninstall is\nimport base64, requests\nr = requests.get(\"https://api.github.com/repos/Dotsian/DexScript/contents/uninstaller.py\")\n\nif r.status_code == requests.codes.ok:\n  content = base64.b64decode(r.json()[\"content\"])\n  await ctx.invoke(bot.get_command(\"eval\"), body=content.decode(\"UTF-8\"))\nelse:\n  await ctx.send(\"Failed to uninstall DexScript.\\nReport this issue to dot_zz on Discord.\")\n  print(f\"ERROR CODE: {r.status_code}\")\n```\nPlease add the prefix before \".eval\".\nDon't forget to restart the bot too.",
+      "color": 60415
+    },
+    {
+      "color": 60415,
+      "image": {
+        "url": "https://media.discordapp.net/attachments/1128408810973839523/1286340249718620180/DELETE.png?ex=66ed8d36&is=66ec3bb6&hm=290fd842e1f93a7878d2b463270a54dd28e175d636e32d8b290e64d4972a9846&=&format=webp&quality=lossless&width=1600&height=391"
+      }
+    },
+    {
+      "description": "And you were probably wondering, how do I remove it from my dex?\n\n**If you want to uninstall Dexscript you can run this command.**\n``.eval``\n```py\nimport base64, requests\nr = requests.get(\"https://api.github.com/repos/Dotsian/DexScript/contents/uninstaller.py\")\n\nif r.status_code == requests.codes.ok:\n  content = base64.b64decode(r.json()[\"content\"])\n  await ctx.invoke(bot.get_command(\"eval\"), body=content.decode(\"UTF-8\"))\nelse:\n  await ctx.send(\"Failed to uninstall DexScript.\\nReport this issue to `dot_zz` on Discord.\")\n```\nPlease add the prefix before \".eval\".\nDon't forget to restart the bot too.",
+      "color": 60415
+    },
+    {
+      "color": 60415,
+      "image": {
+        "url": "https://media.discordapp.net/attachments/1128408810973839523/1286340250209226823/UPDATE.png?ex=66ed8d36&is=66ec3bb6&hm=c6021c0300019a38bcbc28d941885545798c2c2e473386b7f9c51ef2b0308895&=&format=webp&quality=lossless&width=1600&height=391"
+      }
+    },
+    {
+      "description": "Now, after a new version gets released you will need to update DexScript and that is very simple.\n**Run the following command if you want to get Dexscript updated.**\n```py\n(prefix).update-ds```\nAdd your prefix at \"prefix\".\nDon't forget to restart the bot too.",
+      "color": 60415
+    }
+  ],
+  "attachments": []
+}
