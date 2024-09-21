@@ -1,4 +1,9 @@
+
 # Embed Storage
+   <img center="center" src="https://svgshare.com/i/1Afj.svg" />
+   
+# 
+
 Embed Storage is a place where data files of Discord Embeds are saved and can be used at any time. The data files are 	``json`` files. 
 
 # Frequently Asked Questions
